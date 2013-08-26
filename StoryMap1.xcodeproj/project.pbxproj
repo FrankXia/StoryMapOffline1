@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D84F5E17CBC354000BE844 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F5D17CBC354000BE844 /* UIKit.framework */; };
+		01D84F6017CBC354000BE844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F5F17CBC354000BE844 /* Foundation.framework */; };
+		01D84F6217CBC354000BE844 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F6117CBC354000BE844 /* CoreGraphics.framework */; };
+		01D84F6817CBC354000BE844 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F6617CBC354000BE844 /* InfoPlist.strings */; };
+		01D84F6A17CBC354000BE844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84F6917CBC354000BE844 /* main.m */; };
+		01D84F6E17CBC354000BE844 /* StoryMapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84F6D17CBC354000BE844 /* StoryMapAppDelegate.m */; };
+		01D84F7017CBC354000BE844 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F6F17CBC354000BE844 /* Default.png */; };
+		01D84F7217CBC354000BE844 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F7117CBC354000BE844 /* Default@2x.png */; };
+		01D84F7417CBC354000BE844 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F7317CBC354000BE844 /* Default-568h@2x.png */; };
+		01D84F7717CBC354000BE844 /* StoryMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84F7617CBC354000BE844 /* StoryMapViewController.m */; };
+		01D84F7A17CBC354000BE844 /* StoryMapViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F7817CBC354000BE844 /* StoryMapViewController_iPhone.xib */; };
+		01D84F7D17CBC354000BE844 /* StoryMapViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F7B17CBC354000BE844 /* StoryMapViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01D84F5A17CBC354000BE844 /* StoryMap1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryMap1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D84F5D17CBC354000BE844 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01D84F5F17CBC354000BE844 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01D84F6117CBC354000BE844 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01D84F6517CBC354000BE844 /* StoryMap1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryMap1-Info.plist"; sourceTree = "<group>"; };
+		01D84F6717CBC354000BE844 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01D84F6917CBC354000BE844 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01D84F6B17CBC354000BE844 /* StoryMap1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryMap1-Prefix.pch"; sourceTree = "<group>"; };
+		01D84F6C17CBC354000BE844 /* StoryMapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryMapAppDelegate.h; sourceTree = "<group>"; };
+		01D84F6D17CBC354000BE844 /* StoryMapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryMapAppDelegate.m; sourceTree = "<group>"; };
+		01D84F6F17CBC354000BE844 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		01D84F7117CBC354000BE844 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		01D84F7317CBC354000BE844 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		01D84F7517CBC354000BE844 /* StoryMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoryMapViewController.h; sourceTree = "<group>"; };
+		01D84F7617CBC354000BE844 /* StoryMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryMapViewController.m; sourceTree = "<group>"; };
+		01D84F7917CBC354000BE844 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StoryMapViewController_iPhone.xib; sourceTree = "<group>"; };
+		01D84F7C17CBC354000BE844 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StoryMapViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D84F5717CBC354000BE844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D84F5E17CBC354000BE844 /* UIKit.framework in Frameworks */,
+				01D84F6017CBC354000BE844 /* Foundation.framework in Frameworks */,
+				01D84F6217CBC354000BE844 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D84F5117CBC354000BE844 = {
+			isa = PBXGroup;
+			children = (
+				01D84F6317CBC354000BE844 /* StoryMap1 */,
+				01D84F5C17CBC354000BE844 /* Frameworks */,
+				01D84F5B17CBC354000BE844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01D84F5B17CBC354000BE844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01D84F5A17CBC354000BE844 /* StoryMap1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01D84F5C17CBC354000BE844 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01D84F5D17CBC354000BE844 /* UIKit.framework */,
+				01D84F5F17CBC354000BE844 /* Foundation.framework */,
+				01D84F6117CBC354000BE844 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01D84F6317CBC354000BE844 /* StoryMap1 */ = {
+			isa = PBXGroup;
+			children = (
+				01D84F6C17CBC354000BE844 /* StoryMapAppDelegate.h */,
+				01D84F6D17CBC354000BE844 /* StoryMapAppDelegate.m */,
+				01D84F7517CBC354000BE844 /* StoryMapViewController.h */,
+				01D84F7617CBC354000BE844 /* StoryMapViewController.m */,
+				01D84F7817CBC354000BE844 /* StoryMapViewController_iPhone.xib */,
+				01D84F7B17CBC354000BE844 /* StoryMapViewController_iPad.xib */,
+				01D84F6417CBC354000BE844 /* Supporting Files */,
+			);
+			path = StoryMap1;
+			sourceTree = "<group>";
+		};
+		01D84F6417CBC354000BE844 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D84F6517CBC354000BE844 /* StoryMap1-Info.plist */,
+				01D84F6617CBC354000BE844 /* InfoPlist.strings */,
+				01D84F6917CBC354000BE844 /* main.m */,
+				01D84F6B17CBC354000BE844 /* StoryMap1-Prefix.pch */,
+				01D84F6F17CBC354000BE844 /* Default.png */,
+				01D84F7117CBC354000BE844 /* Default@2x.png */,
+				01D84F7317CBC354000BE844 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01D84F5917CBC354000BE844 /* StoryMap1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D84F8017CBC354000BE844 /* Build configuration list for PBXNativeTarget "StoryMap1" */;
+			buildPhases = (
+				01D84F5617CBC354000BE844 /* Sources */,
+				01D84F5717CBC354000BE844 /* Frameworks */,
+				01D84F5817CBC354000BE844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryMap1;
+			productName = StoryMap1;
+			productReference = 01D84F5A17CBC354000BE844 /* StoryMap1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D84F5217CBC354000BE844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = StoryMap;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Esri;
+			};
+			buildConfigurationList = 01D84F5517CBC354000BE844 /* Build configuration list for PBXProject "StoryMap1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01D84F5117CBC354000BE844;
+			productRefGroup = 01D84F5B17CBC354000BE844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01D84F5917CBC354000BE844 /* StoryMap1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01D84F5817CBC354000BE844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D84F6817CBC354000BE844 /* InfoPlist.strings in Resources */,
+				01D84F7017CBC354000BE844 /* Default.png in Resources */,
+				01D84F7217CBC354000BE844 /* Default@2x.png in Resources */,
+				01D84F7417CBC354000BE844 /* Default-568h@2x.png in Resources */,
+				01D84F7A17CBC354000BE844 /* StoryMapViewController_iPhone.xib in Resources */,
+				01D84F7D17CBC354000BE844 /* StoryMapViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D84F5617CBC354000BE844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D84F6A17CBC354000BE844 /* main.m in Sources */,
+				01D84F6E17CBC354000BE844 /* StoryMapAppDelegate.m in Sources */,
+				01D84F7717CBC354000BE844 /* StoryMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01D84F6617CBC354000BE844 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D84F6717CBC354000BE844 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01D84F7817CBC354000BE844 /* StoryMapViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D84F7917CBC354000BE844 /* en */,
+			);
+			name = StoryMapViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		01D84F7B17CBC354000BE844 /* StoryMapViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D84F7C17CBC354000BE844 /* en */,
+			);
+			name = StoryMapViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01D84F7E17CBC354000BE844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01D84F7F17CBC354000BE844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01D84F8117CBC354000BE844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryMap1/StoryMap1-Prefix.pch";
+				INFOPLIST_FILE = "StoryMap1/StoryMap1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01D84F8217CBC354000BE844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryMap1/StoryMap1-Prefix.pch";
+				INFOPLIST_FILE = "StoryMap1/StoryMap1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D84F5517CBC354000BE844 /* Build configuration list for PBXProject "StoryMap1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D84F7E17CBC354000BE844 /* Debug */,
+				01D84F7F17CBC354000BE844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D84F8017CBC354000BE844 /* Build configuration list for PBXNativeTarget "StoryMap1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D84F8117CBC354000BE844 /* Debug */,
+				01D84F8217CBC354000BE844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D84F5217CBC354000BE844 /* Project object */;
+}
