@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012199C517D63992005B06E3 /* MapTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 012199C417D63992005B06E3 /* MapTile.m */; };
+		012199C817D63A6D005B06E3 /* MapTileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 012199C717D63A6D005B06E3 /* MapTileUtil.m */; };
+		01219B6D17D9FDC9005B06E3 /* StoryMapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 01219B6C17D9FDC9005B06E3 /* StoryMapUtil.m */; };
+		01219B7017DA1E18005B06E3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 01219B6F17DA1E18005B06E3 /* Reachability.m */; };
+		01219B7417DA20D9005B06E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01219B7317DA20D9005B06E3 /* SystemConfiguration.framework */; };
+		0138E29117F1FD92004BF7AA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0138E29017F1FD92004BF7AA /* icon@2x.png */; };
+		0138E29317F1FD9C004BF7AA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0138E29217F1FD9C004BF7AA /* icon.png */; };
+		0167AFC517DF7D250026808D /* downarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFC417DF7D250026808D /* downarrow.png */; };
+		0167AFC717DF7D2A0026808D /* uparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFC617DF7D2A0026808D /* uparrow.png */; };
+		0167AFCB17DF84AE0026808D /* CustomCalloutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167AFC917DF84AE0026808D /* CustomCalloutViewController.m */; };
+		0167AFCC17DF84AE0026808D /* CustomCalloutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFCA17DF84AE0026808D /* CustomCalloutViewController.xib */; };
+		0167AFCF17E1F66C0026808D /* TrackInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167AFCE17E1F66C0026808D /* TrackInfo.m */; };
+		0167AFD517E226010026808D /* reveal_menu_icon_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFD417E226010026808D /* reveal_menu_icon_landscape.png */; };
+		0167AFE217E2283C0026808D /* MyLayerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167AFD817E2283C0026808D /* MyLayerDelegate.m */; };
+		0167AFE317E2283C0026808D /* LayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167AFDA17E2283C0026808D /* LayerInfo.m */; };
+		0167AFE417E2283C0026808D /* LayerInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167AFDC17E2283C0026808D /* LayerInfoCell.m */; };
+		0167AFE517E2283C0026808D /* LayerLegendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167AFDE17E2283C0026808D /* LayerLegendCell.m */; };
+		0167AFE617E2283C0026808D /* TOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167AFE017E2283C0026808D /* TOCViewController.m */; };
+		0167AFE717E2283C0026808D /* TOCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFE117E2283C0026808D /* TOCViewController.xib */; };
+		0167AFEC17E22B800026808D /* CircleArrowRight_sml.png in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFE817E22B800026808D /* CircleArrowRight_sml.png */; };
+		0167AFED17E22B800026808D /* CircleArrowDown_sml.png in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFE917E22B800026808D /* CircleArrowDown_sml.png */; };
+		0167AFEE17E22B800026808D /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFEA17E22B800026808D /* checkbox_checked.png */; };
+		0167AFEF17E22B800026808D /* checkbox_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFEB17E22B800026808D /* checkbox_unchecked.png */; };
+		0167AFF317E34A910026808D /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0167AFF117E34A8F0026808D /* AboutViewController.m */; };
+		0167AFF417E34A910026808D /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFF217E34A900026808D /* AboutViewController.xib */; };
+		0167AFF617E77BBD0026808D /* storymaps.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFF517E77BBD0026808D /* storymaps.sqlite */; };
+		0167AFF817E786730026808D /* png.png in Resources */ = {isa = PBXBuildFile; fileRef = 0167AFF717E786730026808D /* png.png */; };
+		01D7948F17DE79310028EE9F /* markerImages in Resources */ = {isa = PBXBuildFile; fileRef = 01D7948E17DE79310028EE9F /* markerImages */; };
 		01D84F5E17CBC354000BE844 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F5D17CBC354000BE844 /* UIKit.framework */; };
 		01D84F6017CBC354000BE844 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F5F17CBC354000BE844 /* Foundation.framework */; };
 		01D84F6217CBC354000BE844 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F6117CBC354000BE844 /* CoreGraphics.framework */; };
@@ -19,10 +47,79 @@
 		01D84F7717CBC354000BE844 /* StoryMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84F7617CBC354000BE844 /* StoryMapViewController.m */; };
 		01D84F7A17CBC354000BE844 /* StoryMapViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F7817CBC354000BE844 /* StoryMapViewController_iPhone.xib */; };
 		01D84F7D17CBC354000BE844 /* StoryMapViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F7B17CBC354000BE844 /* StoryMapViewController_iPad.xib */; };
+		01D84F8417CBCF81000BE844 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F8317CBCF81000BE844 /* CoreLocation.framework */; };
+		01D84F8617CBCF92000BE844 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F8517CBCF92000BE844 /* libc++.dylib */; };
+		01D84F8817CBCF9E000BE844 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F8717CBCF9E000BE844 /* libz.dylib */; };
+		01D84F8A17CBCFA7000BE844 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F8917CBCFA7000BE844 /* QuartzCore.framework */; };
+		01D84F8C17CBCFB0000BE844 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F8B17CBCFB0000BE844 /* MediaPlayer.framework */; };
+		01D84F8E17CBCFBA000BE844 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F8D17CBCFBA000BE844 /* MobileCoreServices.framework */; };
+		01D84F9017CBCFC2000BE844 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F8F17CBCFC2000BE844 /* OpenGLES.framework */; };
+		01D84F9217CBCFCE000BE844 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F9117CBCFCE000BE844 /* Security.framework */; };
+		01D84F9417CBD089000BE844 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F9317CBD089000BE844 /* ArcGIS.bundle */; };
+		01D84F9617CBD3D2000BE844 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D84F9517CBD3D2000BE844 /* CoreText.framework */; };
+		01D84F9A17CBD588000BE844 /* testing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F9917CBD588000BE844 /* testing.jpg */; };
+		01D84F9C17CBEB9F000BE844 /* esri-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F9B17CBEB9F000BE844 /* esri-logo.png */; };
+		01D84FA017CC09E2000BE844 /* StoryMapManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84F9E17CC09E2000BE844 /* StoryMapManagerViewController.m */; };
+		01D84FA117CC09E2000BE844 /* StoryMapManagerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D84F9F17CC09E2000BE844 /* StoryMapManagerViewController.xib */; };
+		01D84FA417CD02AD000BE844 /* icon_esri.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D84FA217CD02AD000BE844 /* icon_esri.png */; };
+		01D84FA517CD02AD000BE844 /* icon@2x_esri.png in Resources */ = {isa = PBXBuildFile; fileRef = 01D84FA317CD02AD000BE844 /* icon@2x_esri.png */; };
+		01D84FA917CD1A89000BE844 /* LoadMapStoryPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84FA817CD1A89000BE844 /* LoadMapStoryPage.m */; };
+		01D84FAD17CD4B68000BE844 /* ThumbnailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84FAB17CD4B68000BE844 /* ThumbnailViewController.m */; };
+		01D84FAE17CD4B68000BE844 /* ThumbnailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D84FAC17CD4B68000BE844 /* ThumbnailViewController.xib */; };
+		01D84FE717CE84C4000BE844 /* ThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84FE617CE84C4000BE844 /* ThumbnailView.m */; };
+		01D84FEA17CF7900000BE844 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84FE817CF78FF000BE844 /* LoadingView.m */; };
+		01D84FF217CFD18E000BE844 /* OfflineCacheParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84FED17CFD18E000BE844 /* OfflineCacheParserDelegate.m */; };
+		01D84FF317CFD18E000BE844 /* OfflineTiledLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84FEF17CFD18E000BE844 /* OfflineTiledLayer.m */; };
+		01D84FF417CFD18E000BE844 /* OfflineTileOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84FF117CFD18E000BE844 /* OfflineTileOperation.m */; };
+		01D84FF717D013E0000BE844 /* StoryMapDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84FF617D013E0000BE844 /* StoryMapDatabase.m */; };
+		01D84FFC17D0D0C8000BE844 /* StoryMapInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84FFB17D0D0C8000BE844 /* StoryMapInfo.m */; };
+		01D84FFF17D0D381000BE844 /* POIInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D84FFE17D0D381000BE844 /* POIInfo.m */; };
+		01D8500117D0E151000BE844 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D8500017D0E151000BE844 /* libsqlite3.dylib */; };
+		01D8500817D11CBD000BE844 /* TileServiceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D8500717D11CBD000BE844 /* TileServiceInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01D84F5A17CBC354000BE844 /* StoryMap1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryMap1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		012199C317D63992005B06E3 /* MapTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTile.h; sourceTree = "<group>"; };
+		012199C417D63992005B06E3 /* MapTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTile.m; sourceTree = "<group>"; };
+		012199C617D63A6D005B06E3 /* MapTileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTileUtil.h; sourceTree = "<group>"; };
+		012199C717D63A6D005B06E3 /* MapTileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTileUtil.m; sourceTree = "<group>"; };
+		01219B6B17D9FDC9005B06E3 /* StoryMapUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryMapUtil.h; sourceTree = "<group>"; };
+		01219B6C17D9FDC9005B06E3 /* StoryMapUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryMapUtil.m; sourceTree = "<group>"; };
+		01219B6E17DA1E18005B06E3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		01219B6F17DA1E18005B06E3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		01219B7317DA20D9005B06E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0138E29017F1FD92004BF7AA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		0138E29217F1FD9C004BF7AA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0167AFC417DF7D250026808D /* downarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downarrow.png; sourceTree = "<group>"; };
+		0167AFC617DF7D2A0026808D /* uparrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uparrow.png; sourceTree = "<group>"; };
+		0167AFC817DF84AE0026808D /* CustomCalloutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCalloutViewController.h; sourceTree = "<group>"; };
+		0167AFC917DF84AE0026808D /* CustomCalloutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCalloutViewController.m; sourceTree = "<group>"; };
+		0167AFCA17DF84AE0026808D /* CustomCalloutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCalloutViewController.xib; sourceTree = "<group>"; };
+		0167AFCD17E1F66B0026808D /* TrackInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackInfo.h; sourceTree = "<group>"; };
+		0167AFCE17E1F66C0026808D /* TrackInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackInfo.m; sourceTree = "<group>"; };
+		0167AFD417E226010026808D /* reveal_menu_icon_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reveal_menu_icon_landscape.png; sourceTree = "<group>"; };
+		0167AFD717E2283C0026808D /* MyLayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayerDelegate.h; sourceTree = "<group>"; };
+		0167AFD817E2283C0026808D /* MyLayerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayerDelegate.m; sourceTree = "<group>"; };
+		0167AFD917E2283C0026808D /* LayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerInfo.h; sourceTree = "<group>"; };
+		0167AFDA17E2283C0026808D /* LayerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerInfo.m; sourceTree = "<group>"; };
+		0167AFDB17E2283C0026808D /* LayerInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerInfoCell.h; sourceTree = "<group>"; };
+		0167AFDC17E2283C0026808D /* LayerInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerInfoCell.m; sourceTree = "<group>"; };
+		0167AFDD17E2283C0026808D /* LayerLegendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerLegendCell.h; sourceTree = "<group>"; };
+		0167AFDE17E2283C0026808D /* LayerLegendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLegendCell.m; sourceTree = "<group>"; };
+		0167AFDF17E2283C0026808D /* TOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCViewController.h; sourceTree = "<group>"; };
+		0167AFE017E2283C0026808D /* TOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCViewController.m; sourceTree = "<group>"; };
+		0167AFE117E2283C0026808D /* TOCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOCViewController.xib; sourceTree = "<group>"; };
+		0167AFE817E22B800026808D /* CircleArrowRight_sml.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleArrowRight_sml.png; sourceTree = "<group>"; };
+		0167AFE917E22B800026808D /* CircleArrowDown_sml.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleArrowDown_sml.png; sourceTree = "<group>"; };
+		0167AFEA17E22B800026808D /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked.png; sourceTree = "<group>"; };
+		0167AFEB17E22B800026808D /* checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked.png; sourceTree = "<group>"; };
+		0167AFF017E34A8F0026808D /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		0167AFF117E34A8F0026808D /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		0167AFF217E34A900026808D /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		0167AFF517E77BBD0026808D /* storymaps.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = storymaps.sqlite; path = ../storymaps.sqlite; sourceTree = "<group>"; };
+		0167AFF717E786730026808D /* png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = png.png; sourceTree = "<group>"; };
+		01D7948E17DE79310028EE9F /* markerImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = markerImages; sourceTree = "<group>"; };
+		01D84F5A17CBC354000BE844 /* Story Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Story Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01D84F5D17CBC354000BE844 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		01D84F5F17CBC354000BE844 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01D84F6117CBC354000BE844 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -39,6 +136,47 @@
 		01D84F7617CBC354000BE844 /* StoryMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryMapViewController.m; sourceTree = "<group>"; };
 		01D84F7917CBC354000BE844 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StoryMapViewController_iPhone.xib; sourceTree = "<group>"; };
 		01D84F7C17CBC354000BE844 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/StoryMapViewController_iPad.xib; sourceTree = "<group>"; };
+		01D84F8317CBCF81000BE844 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		01D84F8517CBCF92000BE844 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		01D84F8717CBCF9E000BE844 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		01D84F8917CBCFA7000BE844 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		01D84F8B17CBCFB0000BE844 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		01D84F8D17CBCFBA000BE844 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		01D84F8F17CBCFC2000BE844 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		01D84F9117CBCFCE000BE844 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		01D84F9317CBD089000BE844 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
+		01D84F9517CBD3D2000BE844 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		01D84F9917CBD588000BE844 /* testing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testing.jpg; sourceTree = "<group>"; };
+		01D84F9B17CBEB9F000BE844 /* esri-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "esri-logo.png"; sourceTree = "<group>"; };
+		01D84F9D17CC09E2000BE844 /* StoryMapManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryMapManagerViewController.h; sourceTree = "<group>"; };
+		01D84F9E17CC09E2000BE844 /* StoryMapManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryMapManagerViewController.m; sourceTree = "<group>"; };
+		01D84F9F17CC09E2000BE844 /* StoryMapManagerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryMapManagerViewController.xib; sourceTree = "<group>"; };
+		01D84FA217CD02AD000BE844 /* icon_esri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_esri.png; sourceTree = "<group>"; };
+		01D84FA317CD02AD000BE844 /* icon@2x_esri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x_esri.png"; sourceTree = "<group>"; };
+		01D84FA617CD1823000BE844 /* LoadMapStoryPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadMapStoryPage.h; sourceTree = "<group>"; };
+		01D84FA817CD1A89000BE844 /* LoadMapStoryPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMapStoryPage.m; sourceTree = "<group>"; };
+		01D84FAA17CD4B68000BE844 /* ThumbnailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailViewController.h; sourceTree = "<group>"; };
+		01D84FAB17CD4B68000BE844 /* ThumbnailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailViewController.m; sourceTree = "<group>"; };
+		01D84FAC17CD4B68000BE844 /* ThumbnailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumbnailViewController.xib; sourceTree = "<group>"; };
+		01D84FE517CE84C4000BE844 /* ThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailView.h; sourceTree = "<group>"; };
+		01D84FE617CE84C4000BE844 /* ThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbnailView.m; sourceTree = "<group>"; };
+		01D84FE817CF78FF000BE844 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		01D84FE917CF78FF000BE844 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		01D84FEC17CFD18E000BE844 /* OfflineCacheParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfflineCacheParserDelegate.h; sourceTree = "<group>"; };
+		01D84FED17CFD18E000BE844 /* OfflineCacheParserDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfflineCacheParserDelegate.m; sourceTree = "<group>"; };
+		01D84FEE17CFD18E000BE844 /* OfflineTiledLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfflineTiledLayer.h; sourceTree = "<group>"; };
+		01D84FEF17CFD18E000BE844 /* OfflineTiledLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfflineTiledLayer.m; sourceTree = "<group>"; };
+		01D84FF017CFD18E000BE844 /* OfflineTileOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OfflineTileOperation.h; sourceTree = "<group>"; };
+		01D84FF117CFD18E000BE844 /* OfflineTileOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfflineTileOperation.m; sourceTree = "<group>"; };
+		01D84FF517D013E0000BE844 /* StoryMapDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryMapDatabase.h; sourceTree = "<group>"; };
+		01D84FF617D013E0000BE844 /* StoryMapDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryMapDatabase.m; sourceTree = "<group>"; };
+		01D84FFA17D0D0C8000BE844 /* StoryMapInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryMapInfo.h; sourceTree = "<group>"; };
+		01D84FFB17D0D0C8000BE844 /* StoryMapInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryMapInfo.m; sourceTree = "<group>"; };
+		01D84FFD17D0D381000BE844 /* POIInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POIInfo.h; sourceTree = "<group>"; };
+		01D84FFE17D0D381000BE844 /* POIInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POIInfo.m; sourceTree = "<group>"; };
+		01D8500017D0E151000BE844 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		01D8500617D11CBD000BE844 /* TileServiceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileServiceInfo.h; sourceTree = "<group>"; };
+		01D8500717D11CBD000BE844 /* TileServiceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileServiceInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +184,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01219B7417DA20D9005B06E3 /* SystemConfiguration.framework in Frameworks */,
+				01D8500117D0E151000BE844 /* libsqlite3.dylib in Frameworks */,
+				01D84F9617CBD3D2000BE844 /* CoreText.framework in Frameworks */,
+				01D84F9217CBCFCE000BE844 /* Security.framework in Frameworks */,
+				01D84F9017CBCFC2000BE844 /* OpenGLES.framework in Frameworks */,
+				01D84F8E17CBCFBA000BE844 /* MobileCoreServices.framework in Frameworks */,
+				01D84F8C17CBCFB0000BE844 /* MediaPlayer.framework in Frameworks */,
+				01D84F8A17CBCFA7000BE844 /* QuartzCore.framework in Frameworks */,
+				01D84F8817CBCF9E000BE844 /* libz.dylib in Frameworks */,
+				01D84F8617CBCF92000BE844 /* libc++.dylib in Frameworks */,
+				01D84F8417CBCF81000BE844 /* CoreLocation.framework in Frameworks */,
 				01D84F5E17CBC354000BE844 /* UIKit.framework in Frameworks */,
 				01D84F6017CBC354000BE844 /* Foundation.framework in Frameworks */,
 				01D84F6217CBC354000BE844 /* CoreGraphics.framework in Frameworks */,
@@ -55,6 +204,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012199C217D63892005B06E3 /* MapTileFinder */ = {
+			isa = PBXGroup;
+			children = (
+				012199C317D63992005B06E3 /* MapTile.h */,
+				012199C417D63992005B06E3 /* MapTile.m */,
+				012199C617D63A6D005B06E3 /* MapTileUtil.h */,
+				012199C717D63A6D005B06E3 /* MapTileUtil.m */,
+			);
+			name = MapTileFinder;
+			sourceTree = "<group>";
+		};
+		01219B6517D92480005B06E3 /* NetworkReachability */ = {
+			isa = PBXGroup;
+			children = (
+				01219B6E17DA1E18005B06E3 /* Reachability.h */,
+				01219B6F17DA1E18005B06E3 /* Reachability.m */,
+			);
+			name = NetworkReachability;
+			sourceTree = "<group>";
+		};
+		0167AFD617E2282A0026808D /* TOC */ = {
+			isa = PBXGroup;
+			children = (
+				0167AFD717E2283C0026808D /* MyLayerDelegate.h */,
+				0167AFD817E2283C0026808D /* MyLayerDelegate.m */,
+				0167AFD917E2283C0026808D /* LayerInfo.h */,
+				0167AFDA17E2283C0026808D /* LayerInfo.m */,
+				0167AFDB17E2283C0026808D /* LayerInfoCell.h */,
+				0167AFDC17E2283C0026808D /* LayerInfoCell.m */,
+				0167AFDD17E2283C0026808D /* LayerLegendCell.h */,
+				0167AFDE17E2283C0026808D /* LayerLegendCell.m */,
+				0167AFDF17E2283C0026808D /* TOCViewController.h */,
+				0167AFE017E2283C0026808D /* TOCViewController.m */,
+				0167AFE117E2283C0026808D /* TOCViewController.xib */,
+			);
+			name = TOC;
+			sourceTree = "<group>";
+		};
 		01D84F5117CBC354000BE844 = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +254,7 @@
 		01D84F5B17CBC354000BE844 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01D84F5A17CBC354000BE844 /* StoryMap1.app */,
+				01D84F5A17CBC354000BE844 /* Story Map.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,9 +262,21 @@
 		01D84F5C17CBC354000BE844 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01D84F5D17CBC354000BE844 /* UIKit.framework */,
-				01D84F5F17CBC354000BE844 /* Foundation.framework */,
+				01219B7317DA20D9005B06E3 /* SystemConfiguration.framework */,
+				01D84F9317CBD089000BE844 /* ArcGIS.bundle */,
 				01D84F6117CBC354000BE844 /* CoreGraphics.framework */,
+				01D84F8317CBCF81000BE844 /* CoreLocation.framework */,
+				01D84F9517CBD3D2000BE844 /* CoreText.framework */,
+				01D84F5F17CBC354000BE844 /* Foundation.framework */,
+				01D84F8517CBCF92000BE844 /* libc++.dylib */,
+				01D8500017D0E151000BE844 /* libsqlite3.dylib */,
+				01D84F8717CBCF9E000BE844 /* libz.dylib */,
+				01D84F8B17CBCFB0000BE844 /* MediaPlayer.framework */,
+				01D84F8D17CBCFBA000BE844 /* MobileCoreServices.framework */,
+				01D84F8F17CBCFC2000BE844 /* OpenGLES.framework */,
+				01D84F8917CBCFA7000BE844 /* QuartzCore.framework */,
+				01D84F9117CBCFCE000BE844 /* Security.framework */,
+				01D84F5D17CBC354000BE844 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,12 +284,48 @@
 		01D84F6317CBC354000BE844 /* StoryMap1 */ = {
 			isa = PBXGroup;
 			children = (
-				01D84F6C17CBC354000BE844 /* StoryMapAppDelegate.h */,
+				0167AFF517E77BBD0026808D /* storymaps.sqlite */,
+				0167AFD617E2282A0026808D /* TOC */,
+				01D7948E17DE79310028EE9F /* markerImages */,
+				01219B6517D92480005B06E3 /* NetworkReachability */,
+				012199C217D63892005B06E3 /* MapTileFinder */,
+				01D84FEB17CFD17F000BE844 /* CustomTiledLayer */,
+				01D84FE917CF78FF000BE844 /* LoadingView.h */,
+				01D84FE817CF78FF000BE844 /* LoadingView.m */,
+				01D84FA617CD1823000BE844 /* LoadMapStoryPage.h */,
+				01D84FA817CD1A89000BE844 /* LoadMapStoryPage.m */,
 				01D84F6D17CBC354000BE844 /* StoryMapAppDelegate.m */,
+				01D84F6C17CBC354000BE844 /* StoryMapAppDelegate.h */,
 				01D84F7517CBC354000BE844 /* StoryMapViewController.h */,
 				01D84F7617CBC354000BE844 /* StoryMapViewController.m */,
 				01D84F7817CBC354000BE844 /* StoryMapViewController_iPhone.xib */,
 				01D84F7B17CBC354000BE844 /* StoryMapViewController_iPad.xib */,
+				01D84F9D17CC09E2000BE844 /* StoryMapManagerViewController.h */,
+				01D84F9E17CC09E2000BE844 /* StoryMapManagerViewController.m */,
+				01D84F9F17CC09E2000BE844 /* StoryMapManagerViewController.xib */,
+				01D84FAA17CD4B68000BE844 /* ThumbnailViewController.h */,
+				01D84FAB17CD4B68000BE844 /* ThumbnailViewController.m */,
+				01D84FAC17CD4B68000BE844 /* ThumbnailViewController.xib */,
+				01D84FE517CE84C4000BE844 /* ThumbnailView.h */,
+				01D84FE617CE84C4000BE844 /* ThumbnailView.m */,
+				01D8500617D11CBD000BE844 /* TileServiceInfo.h */,
+				01D8500717D11CBD000BE844 /* TileServiceInfo.m */,
+				01D84FFD17D0D381000BE844 /* POIInfo.h */,
+				01D84FFE17D0D381000BE844 /* POIInfo.m */,
+				0167AFCD17E1F66B0026808D /* TrackInfo.h */,
+				0167AFCE17E1F66C0026808D /* TrackInfo.m */,
+				01D84FFA17D0D0C8000BE844 /* StoryMapInfo.h */,
+				01D84FFB17D0D0C8000BE844 /* StoryMapInfo.m */,
+				01D84FF517D013E0000BE844 /* StoryMapDatabase.h */,
+				01D84FF617D013E0000BE844 /* StoryMapDatabase.m */,
+				01219B6B17D9FDC9005B06E3 /* StoryMapUtil.h */,
+				01219B6C17D9FDC9005B06E3 /* StoryMapUtil.m */,
+				0167AFC817DF84AE0026808D /* CustomCalloutViewController.h */,
+				0167AFC917DF84AE0026808D /* CustomCalloutViewController.m */,
+				0167AFCA17DF84AE0026808D /* CustomCalloutViewController.xib */,
+				0167AFF017E34A8F0026808D /* AboutViewController.h */,
+				0167AFF117E34A8F0026808D /* AboutViewController.m */,
+				0167AFF217E34A900026808D /* AboutViewController.xib */,
 				01D84F6417CBC354000BE844 /* Supporting Files */,
 			);
 			path = StoryMap1;
@@ -99,6 +334,20 @@
 		01D84F6417CBC354000BE844 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0138E29217F1FD9C004BF7AA /* icon.png */,
+				0138E29017F1FD92004BF7AA /* icon@2x.png */,
+				0167AFF717E786730026808D /* png.png */,
+				0167AFE817E22B800026808D /* CircleArrowRight_sml.png */,
+				0167AFE917E22B800026808D /* CircleArrowDown_sml.png */,
+				0167AFEA17E22B800026808D /* checkbox_checked.png */,
+				0167AFEB17E22B800026808D /* checkbox_unchecked.png */,
+				0167AFD417E226010026808D /* reveal_menu_icon_landscape.png */,
+				0167AFC617DF7D2A0026808D /* uparrow.png */,
+				0167AFC417DF7D250026808D /* downarrow.png */,
+				01D84FA217CD02AD000BE844 /* icon_esri.png */,
+				01D84FA317CD02AD000BE844 /* icon@2x_esri.png */,
+				01D84F9B17CBEB9F000BE844 /* esri-logo.png */,
+				01D84F9917CBD588000BE844 /* testing.jpg */,
 				01D84F6517CBC354000BE844 /* StoryMap1-Info.plist */,
 				01D84F6617CBC354000BE844 /* InfoPlist.strings */,
 				01D84F6917CBC354000BE844 /* main.m */,
@@ -108,6 +357,19 @@
 				01D84F7317CBC354000BE844 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01D84FEB17CFD17F000BE844 /* CustomTiledLayer */ = {
+			isa = PBXGroup;
+			children = (
+				01D84FEC17CFD18E000BE844 /* OfflineCacheParserDelegate.h */,
+				01D84FED17CFD18E000BE844 /* OfflineCacheParserDelegate.m */,
+				01D84FEE17CFD18E000BE844 /* OfflineTiledLayer.h */,
+				01D84FEF17CFD18E000BE844 /* OfflineTiledLayer.m */,
+				01D84FF017CFD18E000BE844 /* OfflineTileOperation.h */,
+				01D84FF117CFD18E000BE844 /* OfflineTileOperation.m */,
+			);
+			name = CustomTiledLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +389,7 @@
 			);
 			name = StoryMap1;
 			productName = StoryMap1;
-			productReference = 01D84F5A17CBC354000BE844 /* StoryMap1.app */;
+			productReference = 01D84F5A17CBC354000BE844 /* Story Map.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -168,6 +430,28 @@
 				01D84F7417CBC354000BE844 /* Default-568h@2x.png in Resources */,
 				01D84F7A17CBC354000BE844 /* StoryMapViewController_iPhone.xib in Resources */,
 				01D84F7D17CBC354000BE844 /* StoryMapViewController_iPad.xib in Resources */,
+				01D84F9417CBD089000BE844 /* ArcGIS.bundle in Resources */,
+				01D84F9A17CBD588000BE844 /* testing.jpg in Resources */,
+				01D84F9C17CBEB9F000BE844 /* esri-logo.png in Resources */,
+				01D84FA117CC09E2000BE844 /* StoryMapManagerViewController.xib in Resources */,
+				01D84FA417CD02AD000BE844 /* icon_esri.png in Resources */,
+				01D84FA517CD02AD000BE844 /* icon@2x_esri.png in Resources */,
+				01D84FAE17CD4B68000BE844 /* ThumbnailViewController.xib in Resources */,
+				01D7948F17DE79310028EE9F /* markerImages in Resources */,
+				0167AFC517DF7D250026808D /* downarrow.png in Resources */,
+				0167AFC717DF7D2A0026808D /* uparrow.png in Resources */,
+				0167AFCC17DF84AE0026808D /* CustomCalloutViewController.xib in Resources */,
+				0167AFD517E226010026808D /* reveal_menu_icon_landscape.png in Resources */,
+				0167AFE717E2283C0026808D /* TOCViewController.xib in Resources */,
+				0167AFEC17E22B800026808D /* CircleArrowRight_sml.png in Resources */,
+				0167AFED17E22B800026808D /* CircleArrowDown_sml.png in Resources */,
+				0167AFEE17E22B800026808D /* checkbox_checked.png in Resources */,
+				0167AFEF17E22B800026808D /* checkbox_unchecked.png in Resources */,
+				0167AFF417E34A910026808D /* AboutViewController.xib in Resources */,
+				0167AFF617E77BBD0026808D /* storymaps.sqlite in Resources */,
+				0167AFF817E786730026808D /* png.png in Resources */,
+				0138E29117F1FD92004BF7AA /* icon@2x.png in Resources */,
+				0138E29317F1FD9C004BF7AA /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +465,30 @@
 				01D84F6A17CBC354000BE844 /* main.m in Sources */,
 				01D84F6E17CBC354000BE844 /* StoryMapAppDelegate.m in Sources */,
 				01D84F7717CBC354000BE844 /* StoryMapViewController.m in Sources */,
+				01D84FA017CC09E2000BE844 /* StoryMapManagerViewController.m in Sources */,
+				01D84FA917CD1A89000BE844 /* LoadMapStoryPage.m in Sources */,
+				01D84FAD17CD4B68000BE844 /* ThumbnailViewController.m in Sources */,
+				01D84FE717CE84C4000BE844 /* ThumbnailView.m in Sources */,
+				01D84FEA17CF7900000BE844 /* LoadingView.m in Sources */,
+				01D84FF217CFD18E000BE844 /* OfflineCacheParserDelegate.m in Sources */,
+				01D84FF317CFD18E000BE844 /* OfflineTiledLayer.m in Sources */,
+				01D84FF417CFD18E000BE844 /* OfflineTileOperation.m in Sources */,
+				01D84FF717D013E0000BE844 /* StoryMapDatabase.m in Sources */,
+				01D84FFC17D0D0C8000BE844 /* StoryMapInfo.m in Sources */,
+				01D84FFF17D0D381000BE844 /* POIInfo.m in Sources */,
+				01D8500817D11CBD000BE844 /* TileServiceInfo.m in Sources */,
+				012199C517D63992005B06E3 /* MapTile.m in Sources */,
+				012199C817D63A6D005B06E3 /* MapTileUtil.m in Sources */,
+				01219B6D17D9FDC9005B06E3 /* StoryMapUtil.m in Sources */,
+				01219B7017DA1E18005B06E3 /* Reachability.m in Sources */,
+				0167AFCB17DF84AE0026808D /* CustomCalloutViewController.m in Sources */,
+				0167AFCF17E1F66C0026808D /* TrackInfo.m in Sources */,
+				0167AFE217E2283C0026808D /* MyLayerDelegate.m in Sources */,
+				0167AFE317E2283C0026808D /* LayerInfo.m in Sources */,
+				0167AFE417E2283C0026808D /* LayerInfoCell.m in Sources */,
+				0167AFE517E2283C0026808D /* LayerLegendCell.m in Sources */,
+				0167AFE617E2283C0026808D /* TOCViewController.m in Sources */,
+				0167AFF317E34A910026808D /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +583,25 @@
 		01D84F8117CBC354000BE844 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Environmental Systems Research Institute Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Environmental Systems Research Institute Inc.";
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryMap1/StoryMap1-Prefix.pch";
 				INFOPLIST_FILE = "StoryMap1/StoryMap1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
+				OTHER_TEST_FLAGS = "-ObjC -framework ArcGIS -l c++";
+				PRODUCT_NAME = "Story Map";
+				PROVISIONING_PROFILE = "D4DAAF43-01AF-4049-88ED-1B97F2A462AA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D4DAAF43-01AF-4049-88ED-1B97F2A462AA";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -286,10 +609,25 @@
 		01D84F8217CBC354000BE844 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Environmental Systems Research Institute Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Environmental Systems Research Institute Inc.";
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryMap1/StoryMap1-Prefix.pch";
 				INFOPLIST_FILE = "StoryMap1/StoryMap1-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
+				OTHER_TEST_FLAGS = "-ObjC -framework ArcGIS -l c++";
+				PRODUCT_NAME = "Story Map";
+				PROVISIONING_PROFILE = "D4DAAF43-01AF-4049-88ED-1B97F2A462AA";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D4DAAF43-01AF-4049-88ED-1B97F2A462AA";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -313,6 +651,7 @@
 				01D84F8217CBC354000BE844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

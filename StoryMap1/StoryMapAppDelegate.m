@@ -7,7 +7,6 @@
 //
 
 #import "StoryMapAppDelegate.h"
-
 #import "StoryMapViewController.h"
 
 @implementation StoryMapAppDelegate
